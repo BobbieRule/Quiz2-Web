@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Moonglade;
+  src: url("./MoongladeDemoBold.ttf");
+}
+
+body {
+  text-align: center;
+  font-family: Moonglade;
+  letter-spacing: 0.3em;
+}
+
+#myForm {
+  border: 0.7em solid black;
+  display: inline-block;
+  margin-top: 9%;
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+#name,
+#email,
+#password,
+#confirm_password,
+#submit {
+  border-radius: 0.3em;
+  padding: 0.3em;
+  font-size: 0.8em;
+  font-family: Moonglade;
+}
