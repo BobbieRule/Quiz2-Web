@@ -27,3 +27,43 @@ body {
   font-size: 0.8em;
   font-family: Moonglade;
 }
+
+@media screen and (max-width: 350px) {
+  body {
+    letter-spacing: 0.2em;
+  }
+
+  #myForm {
+    font-size: 1.3em;
+    padding: 0.8em;
+  }
+
+  #name,
+  #email,
+  #password,
+  #confirm_password,
+  #submit {
+    padding: 0.2em;
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  body {
+    letter-spacing: 0.2em;
+  }
+
+  #myForm {
+    font-size: 1.1em;
+    padding: 0.7em;
+  }
+
+  #name,
+  #email,
+  #password,
+  #confirm_password,
+  #submit {
+    padding: 0.15em;
+    font-size: 0.4em;
+  }
+}
